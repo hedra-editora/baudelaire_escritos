@@ -1,6 +1,9 @@
 This is makeindex, version 2.15 [TeX Live 2017] (kpathsea + Thai support).
 Scanning input file LIVRO.idx....done (511 entries accepted, 0 rejected).
-Sorting entries.......done (5301 comparisons).
-Generating output file LIVRO.ind....done (272 lines written, 0 warnings).
+Sorting entries.......done (5449 comparisons).
+Generating output file LIVRO.ind....
+## Warning (input = LIVRO.idx, line = 62; output = LIVRO.ind, line = 22):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (272 lines written, 1 warning).
 Output written in LIVRO.ind.
 Transcript written in LIVRO.ilg.
