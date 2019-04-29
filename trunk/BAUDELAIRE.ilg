@@ -1,0 +1,9 @@
+This is makeindex, version 2.15 [TeX Live 2012] (kpathsea + Thai support).
+Scanning input file BAUDELAIRE.idx....done (511 entries accepted, 0 rejected).
+Sorting entries.......done (5369 comparisons).
+Generating output file BAUDELAIRE.ind....
+## Warning (input = BAUDELAIRE.idx, line = 61; output = BAUDELAIRE.ind, line = 22):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (271 lines written, 1 warning).
+Output written in BAUDELAIRE.ind.
+Transcript written in BAUDELAIRE.ilg.
