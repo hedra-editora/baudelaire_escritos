@@ -22,6 +22,9 @@
 \usepackage{endnotes}
 \renewcommand{\notesname}{Notas}
 
+\usepackage{makeidx,hedraindex}  % cria índice
+\makeindex	
+
 %\counterwithin*{endnote}{part}
 %\counterwithin*{endnote}{chapter}
 
@@ -80,6 +83,8 @@ BoldFont = Formular-Bold.otf]
     \addtocounter{page}{0}%
     \newpage}
 
+
+
 %\usepackage{imakeidx} 
 %\makeindex[program=xindy, options=-C utf8 -L portuguese]
 %\newcommand\gobbleone[1]{}
@@ -89,7 +94,7 @@ BoldFont = Formular-Bold.otf]
 %\renewcommand\indexname{Índice onomástico}
 %\makeindex[intoc]
 
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
 %\linespread{1.08}
 \usepackage{commands}
@@ -154,5 +159,7 @@ BoldFont = Formular-Bold.otf]
 \begin{document}
 
 \include{INPUTS}
+
+\printindex
 
 \end{document}
