@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  16 SEP 2019 13:36
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  25 SEP 2019 18:52
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.253 seconds
+luaotfload | main : initialization completed in 0.237 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1825,12 +1825,11 @@ RS)
  (./INPUTS.tex (./INTRO.tex [6
 
 
+
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 21.
- [7
-
-] [8]
+ [7] [8]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 63.
  [9] [10] [11] [12]
@@ -1841,9 +1840,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [32] [33] [34] [35] [36] [37] [38] [39]
 [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
-[55] [56] [57] [58] [59
+[55] [56] [57] [58
 
-] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
 [70] [71] [72] [73] [74
 
 ] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
@@ -1886,7 +1885,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:2,2:1647,3:152,4:53,5:349,6:4631,7:1774,8:53,9:249,10:24,11:55
 0
  27397 multiletter control sequences out of 65536+600000
- 101 fonts using 21052735 bytes
+ 101 fonts using 21052803 bytes
  50i,14n,70p,1369b,511s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/editorial/
 texmf/tex/fonts/Formular-Regular.otf></usr/share/texmf-dist/fonts/opentype/publi
@@ -1895,7 +1894,7 @@ ertine/LinLibertine_RB.otf></usr/share/texmf-dist/fonts/opentype/public/libertin
 e/LinLibertine_R.otf></home/editorial/texmf/tex/fonts/Formular-Bold.otf></usr/sh
 are/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (142 pages, 388579 bytes).
+Output written on LIVRO.pdf (142 pages, 388525 bytes).
 
 PDF statistics: 495 PDF objects out of 1000 (max. 8388607)
  330 compressed objects within 4 object streams
