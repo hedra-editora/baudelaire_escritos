@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1569448363 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1569448369
+["lualatex"] 1569448363 "LIVRO.tex" "LIVRO.pdf" "LIVRO" 1569861143
   "/etc/texmf/tex/generic/config/language.dat" 1501615481 6367 641735e2f987308ac3125ca745743b9d ""
   "/home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/formular-bold.luc" 1556123292 145434 733ccd96bf349efdf31e0c1ee13b54f8 ""
   "/home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/formular-regular.luc" 1556047516 149467 873bce6e284ab4d9ba4daedb37f25e6e ""
@@ -244,14 +244,14 @@
   "tipografia.sty" 1556563144 9969 4482ee9ca783c256e73b20cb46d97e8c ""
   (generated)
   "LIVRO.pdf"
-  "LIVRO.toc"
   "PUBLICIDADE.aux"
-  "INPUTS.aux"
   "LIVRO.log"
-  "LIVRO.idx"
+  "LIVRO.toc"
+  "INPUTS.aux"
   "LIVRO.aux"
-["makeindex LIVRO.idx"] 1566334788 "LIVRO.idx" "LIVRO.ind" "LIVRO" 1569448369
+  "LIVRO.idx"
+["makeindex LIVRO.idx"] 1566334788 "LIVRO.idx" "LIVRO.ind" "LIVRO" 1569861143
   "LIVRO.idx" 1569448368 20364 2af065f53b5b6447e1793fe31ac5bc0d ""
   (generated)
-  "LIVRO.ilg"
   "LIVRO.ind"
+  "LIVRO.ilg"
