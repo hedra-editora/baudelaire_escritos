@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  25 SEP 2019 18:52
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  1 OCT 2019 14:18
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.237 seconds
+luaotfload | main : initialization completed in 0.231 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1801,7 +1801,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Formular-Regular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono12-regular.luc)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono8-regular.luc) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1829,32 +1836,34 @@ RS)
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 21.
- [7] [8]
+ [7](load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl
+/lmmono10-regular.luc)
+[8]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 63.
- [9] [10] [11] [12]
-[13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27])
-(./TEXTO.tex [28] [29
+ [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[23] [24] [25] [26] [27]) (./TEXTO.tex [28] [29
 
 ] [30] [31
 
-] [32] [33] [34] [35] [36] [37] [38] [39]
-[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
-[55] [56] [57] [58
+] [32] [33] [34]
+[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
+[50] [51] [52] [53] [54] [55] [56] [57] [58
 
-] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
-[70] [71] [72] [73] [74
+] [59] [60] [61] [62] [63] [64]
+[65] [66] [67] [68] [69] [70] [71] [72] [73] [74
 
-] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
-[85
+] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85
 
-] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99]
-[100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]))
-[124] (./LIVRO.ind [125
+] [86] [87] [88] [89] [90] [91] [92] [93] [94]
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107]
+[108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[120] [121] [122] [123])) [124] (./LIVRO.ind [125
 
 
-] [126] [127] [128]) 
+] [126] [127] [128])
+
 AED: lastpage setting LastPage
 [129]
 \openout2 = PUBLICIDADE.aux
@@ -1863,12 +1872,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[130
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono9-regular.luc) [130
 
 
 
-] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141])
-[142
+] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [141]) [142
 
 ]
 \tf@toc=\write7
@@ -1877,27 +1887,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  (./LIVRO.aux (./INPUTS.aux) (./PUBLICIDADE.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 24520 strings out of 494472
+ 24540 strings out of 494472
  100000,794899 words of node,token memory allocated
  1933 words of node memory still in use:
    5 hlist, 1 vlist, 1 rule, 45 glue, 1 penalty, 192 attribute, 197 glue_spec, 4
 8 attribute_list, 3 shape, 2 write nodes
-   avail lists: 1:2,2:1647,3:152,4:53,5:349,6:4631,7:1774,8:53,9:249,10:24,11:55
+   avail lists: 1:2,2:1727,3:153,4:53,5:355,6:4663,7:1774,8:57,9:262,10:24,11:55
 0
- 27397 multiletter control sequences out of 65536+600000
- 101 fonts using 21052803 bytes
- 50i,14n,70p,1369b,511s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 27409 multiletter control sequences out of 65536+600000
+ 107 fonts using 21809531 bytes
+ 50i,12n,70p,1369b,511s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/editorial/
 texmf/tex/fonts/Formular-Regular.otf></usr/share/texmf-dist/fonts/opentype/publi
 c/libertine/LinLibertine_RI.otf></usr/share/texmf-dist/fonts/opentype/public/lib
 ertine/LinLibertine_RB.otf></usr/share/texmf-dist/fonts/opentype/public/libertin
 e/LinLibertine_R.otf></home/editorial/texmf/tex/fonts/Formular-Bold.otf></usr/sh
-are/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (142 pages, 388525 bytes).
+are/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/texmf-di
+st/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/latxfont/lcirclew.pfb>
+Output written on LIVRO.pdf (142 pages, 404122 bytes).
 
-PDF statistics: 495 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
+PDF statistics: 502 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
